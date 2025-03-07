@@ -1,0 +1,9 @@
+
+<p>view-dietry works! Hi</p>
+
+<p-button (click)="addDiet()">Add Diet</p-button>
+
+<div *ngIf="getViewData$ | async as data">
+    <p>{{ data.amount }}</p>
+  </div>
+  

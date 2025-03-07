@@ -1,0 +1,9 @@
+{
+  "routes": [
+    "/",
+    "/add-dietry",
+    "/dashboard",
+    "/view-dietry",
+    "/view-dietry/add-dietry"
+  ]
+}
